@@ -1,3 +1,11 @@
+causal-lm-instructcodet5p-16b-pretrained: 
+    huggingface_url: "Salesforce/codet5p-16b"
+    tokenizer_url: "Salesforce/codegen-6B-multi"
+    max_prediction_length: 2048
+causal-lm-codegen-350M-mono-pretrained:
+    huggingface_url: "Salesforce/codegen-350M-mono"
+    tokenizer_url: "Salesforce/codegen-350M-mono"
+    max_prediction_length: 512
 causal-lm-codegen-350M-mono-pretrained:
     huggingface_url: "Salesforce/codegen-350M-mono"
     tokenizer_url: "Salesforce/codegen-350M-mono"
